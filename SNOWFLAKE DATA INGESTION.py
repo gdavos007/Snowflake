@@ -47,7 +47,7 @@ def main(session: snowpark.Session):
     internal_stage = "MY_STAGE"
 
     #File Format name for the COPY INTO command
-    file_format_name = "my_csv_format"
+    file_format_name = "my_format"
 
     #Table name to COPY INTO
     table_name = "TABLE_NAME"
